@@ -1,9 +1,9 @@
 class X8664PcElfGcc < Formula
   desc "The GNU Compiler Collection for cross-compiling to x86_64-pc-elf"
   homepage "https://gcc.gnu.org"
-  url "https://ftpmirror.gnu.org/gcc/gcc-5.4.0/gcc-5.4.0.tar.bz2"
-  mirror "https://ftp.gnu.org/gnu/gcc/gcc-5.4.0/gcc-5.4.0.tar.bz2"
-  sha256 "608df76dec2d34de6558249d8af4cbee21eceddbcb580d666f7a5a583ca3303a"
+  url "https://ftpmirror.gnu.org/gcc/gcc-7.3.0/gcc-7.3.0.tar.gz"
+  mirror "https://ftp.gnu.org/gnu/gcc/gcc-7.3.0/gcc-7.3.0.tar.gz"
+  sha256 "fa06e455ca198ddc11ea4ddf2a394cf7cfb66aa7e0ab98cc1184189f1d405870"
 
   option "without-cxx", "Don't build the g++ compiler"
 
